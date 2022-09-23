@@ -1,0 +1,187 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+        background-color: #202020;
+
+}
+
+header{
+
+        background-color: #00ffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+}
+
+.break-bd{
+
+        width: 100px;
+
+}
+
+.listas{
+
+        display: flex;
+        font-size: 25px;
+        flex-wrap: wrap;
+        gap:15px;
+
+}
+
+.listas a{
+
+        text-decoration: none;
+        color: #124612;
+
+}
+
+img{
+
+        width: 100%; 
+
+}
+
+.conteudo h1{
+
+        color: #124612;
+        text-align: center;
+        padding: 15px;
+
+} 
+
+.conteudo{
+        
+        gap: 20px;
+        min-height: 30vh;
+        padding: 30px;
+
+}   
+
+.conteudo h1{
+
+        font-size: 30px;
+
+}
+
+.flex{
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+}
+        
+.fotecas{
+        
+        background-color:#ffffff ;
+        width: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+               
+}       
+
+.jesse{
+
+        height: 200px;
+        object-fit: cover;
+
+}
+
+.walter{
+
+        height: 200px;
+        object-fit: cover;
+
+}
+
+.gus{
+
+        height: 200px;
+        object-fit: cover;
+
+}
+
+.saul{
+
+        height: 200px;
+        object-fit: cover;
+
+}
+
+.mike{
+
+        height: 200px;
+        object-fit: cover;
+
+}
+
+iframe{    
+
+        display: block;
+        margin: auto;
+        padding: 20px;
+
+}
+
+footer img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    
+    }
+    
+footer{    
+        
+    background-color: #00ffff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+    }
+    
+ .link{
+    
+    text-decoration: none;
+    color: #124612;
+    
+    }
+
+@media(max-width:425px) {
+
+     header{
+
+                flex-direction:column ;
+
+     }
+
+     iframe{
+
+                width: 100%;
+
+     }
+
+     .fotecas{
+
+                width: 150px;
+
+     }
+
+     .conteudo h1{
+
+                font-size: 20px;
+
+     }
+}
+
